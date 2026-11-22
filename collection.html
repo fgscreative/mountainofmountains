@@ -44,6 +44,17 @@
 .lenis.lenis-stopped {
   overflow: hidden;
 }
+/* Product grid cells are link blocks to /product — keep them looking like cards */
+a.grid-cell {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+a.grid-cell:focus-visible {
+  outline: 2px solid #C9C0BF;
+  outline-offset: 3px;
+}
 </style>
 </head>
 <body>
@@ -1363,7 +1374,7 @@ frame();
       <div class="products_contain">
         <div class="products-grid_wrap">
           <div class="w-layout-grid product-grid">
-            <div class="grid-cell">
+            <a href="/product" aria-label="View Summit Pick Ice Axe" class="grid-cell w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1409,8 +1420,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell">
+            </a>
+            <a href="/product" aria-label="View Belay Master Device" class="grid-cell w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1456,8 +1467,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell">
+            </a>
+            <a href="/product" aria-label="View Traction Steel Crampons" class="grid-cell w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1503,8 +1514,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell">
+            </a>
+            <a href="/product" aria-label="View Trailpod Storage Set" class="grid-cell w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1550,8 +1561,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell">
+            </a>
+            <a href="/product" aria-label="View Altitude Base Layer" class="grid-cell w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1597,8 +1608,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell">
+            </a>
+            <a href="/product" aria-label="View Lockjaw Carabiner" class="grid-cell w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1644,8 +1655,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell hide-portrait">
+            </a>
+            <a href="/product" aria-label="View Lifeline Dynamic Rope" class="grid-cell hide-portrait w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1691,8 +1702,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell hide-portrait">
+            </a>
+            <a href="/product" aria-label="View Basecamp Alpine Tent" class="grid-cell hide-portrait w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1738,8 +1749,8 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
-            <div class="grid-cell hide-portrait">
+            </a>
+            <a href="/product" aria-label="View Headguard Summit Helmet" class="grid-cell hide-portrait w-inline-block">
               <div class="grid-cell_bg">
                 <div class="cloud-animation-css w-embed">
                   <style>
@@ -1785,7 +1796,7 @@ frame();
                 </div>
               </div>
               <div data-snow="https://framework-brand.b-cdn.net/webgl-new/snowe.png" class="snow-reveal"></div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
